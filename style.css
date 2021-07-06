@@ -70,32 +70,116 @@ body{
     padding-left: 15%;
   
 }
-.my-menu{
-    text-align: center;
-    
-}
-
-.recipi{
+.new{
     display: flex;
-
 }
-.recipies{
+#menu{
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+.menu-text{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.menu-text p{
+    font-weight: bold;
+    color: orangered;
+    margin-top: -20px;
+}
+.part{
     width: 30%;
     margin-left: 2%;
     margin-right: 2%;
-    padding-top: 1%;
-    padding-right: 1%;
-    padding-left: 1%;
-    padding-bottom: -20%;
-    border-radius: 5%;
-    background-color: whitesmoke;
-    box-shadow: 10px 10px 30px rgb(212, 157, 84);
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 40px rgb(226, 145, 69);
 }
-.recipies img{
+.part img{
     width: 100%;
     height: 40%;
+    border-radius: 15px;
 }
-.recipies p{
+.part p{
     color: gray;
-    padding-bottom: -20px;
+}
+
+
+
+.sign-up{
+    background-color: orangered;
+    text-align: center;
+    padding: 2%;
+    padding-bottom: 90px;
+    margin-bottom: 10px;
+    
+}
+.sign-up h1{
+    color: white;
+}
+.sign input{
+    width: 40%;
+    padding: 10px 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+#btn{
+    padding: 12px 30px; 
+    background: rgb(228,64,64);
+    background: linear-gradient(94deg, rgba(228,64,64,0.8435749299719888) 0%, rgba(253,77,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: white;
+    font-weight: 500;  
+    text-decoration: none; 
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 2px 3px 20px white;
+    margin-left: 15px;
+}
+.followers{
+    width: 30%;
+    margin-left: 5% ;
+    margin-right: 5%;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.followers h1{
+    font-weight: medium;
+    color: black;
+}
+.followers h3{
+    padding-left: 25px;
+}
+.followers p{
+    margin-top: -10%;
+    font-size: 15px;
+}
+#follow{
+    box-shadow: 10px 10px 30px gray;
+    margin: 5% 5%;
+   
+}
+.food-menu{
+    background-image: url(image/Frame\ 57.jpg);
+    padding: 30px 0px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+.menu-bar h2{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+footer h2{
+    color: gray;
+}
+footer p{
+    color: white;
+    font-size: 15px;
+
 }
